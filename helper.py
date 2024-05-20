@@ -182,6 +182,7 @@ def sentiment_analyzer(selected_user, df):
     return percent_df
 
 nltk.download('stopwords')
+nltk.download('punkt')
 def transform_text(text):
     # nltk.download('stopwords')
     ps = PorterStemmer()
