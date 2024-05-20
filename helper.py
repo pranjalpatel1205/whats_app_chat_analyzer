@@ -15,7 +15,7 @@ import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-
+nltk.download('vader_lexicon')
 extract = URLExtract()
 
 def fetch_stats(selected_user, df):
